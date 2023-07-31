@@ -1,5 +1,5 @@
 autodestroy = 180 -- seconds
-if _G.ppppp3p3p3p ~= true then
+if _G.lllllll ~= true then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
   local TextLabel = Instance.new("TextLabel")
@@ -26,10 +26,10 @@ if _G.ppppp3p3p3p ~= true then
   TextLabel.TextScaled = true
   TextLabel.TextSize = 14.000
   TextLabel.TextWrapped = true
-  for i = 0, autodestroy, -1 do
+  for i = autodestroy, 0, -1 do
     TextLabel.Text = "test msg (" .. tostring(i) .. ")"
     task.wait(1)
   end
   ScreenGui:Destroy()
-  _G.ppppp3p3p3p = true
+  _G.lllllll = true
 end
