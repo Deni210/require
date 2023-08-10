@@ -1,5 +1,6 @@
 _G.currentversion = 3.0
 spawn(function()
+_G.ppwoiwfejijiejigjie = true
 if _G.ppwoiwfejijiejigjie ~= true then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
