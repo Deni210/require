@@ -1,6 +1,6 @@
 _G.currentversion = 3.0
 spawn(function()
-if _G.pweppfpfwe ~= true then
+if _G.ppwoiwfejijiejigjie ~= true then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
   local TextLabel = Instance.new("TextLabel")
@@ -28,11 +28,8 @@ if _G.pweppfpfwe ~= true then
   TextLabel.TextScaled = true
   TextLabel.TextSize = 14.000
   TextLabel.TextWrapped = true
-  for i = 60, 0, -1 do
-    TextLabel.Text = "Doom is W " .. "(" .. tostring(i) .. ")"
-    task.wait(1)
-  end
+  task.wait(60)
   ScreenGui:Destroy()
-  _G.pweppfpfwe = true
+  _G.ppwoiwfejijiejigjie = true
 end
 end)
