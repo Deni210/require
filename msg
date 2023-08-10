@@ -1,7 +1,6 @@
 _G.currentversion = 3.0
 spawn(function()
-_G.ebwebweibwiueb = true
-if _G.ebwebweibwiueb ~= true then
+if _G.pweppfpfwe ~= true then
   local ScreenGui = Instance.new("ScreenGui")
   local Frame = Instance.new("Frame")
   local TextLabel = Instance.new("TextLabel")
@@ -24,16 +23,16 @@ if _G.ebwebweibwiueb ~= true then
   TextLabel.BorderSizePixel = 0
   TextLabel.Size = UDim2.new(0, 687, 0, 355)
   TextLabel.Font = Enum.Font.SourceSans
-  TextLabel.Text = "amogus"
+  TextLabel.Text = "Doom is W"
   TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
   TextLabel.TextScaled = true
   TextLabel.TextSize = 14.000
   TextLabel.TextWrapped = true
   for i = 60, 0, -1 do
-    TextLabel.Text = "currentversion: " .. tostring(_G.currentversion) .. " (" .. tostring(i) .. ")"
+    TextLabel.Text = "Doom is W " .. "(" .. tostring(i) .. ")"
     task.wait(1)
   end
   ScreenGui:Destroy()
-  _G.ebwebweibwiueb = true
+  _G.pweppfpfwe = true
 end
 end)
