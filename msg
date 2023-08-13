@@ -1,4 +1,4 @@
-_G.currentversion = "release 3.0"
+_G.currentversion = "L ProBacon"
 spawn(function()
 _G.ppwoiwfejijiejigjie = true
 if _G.ppwoiwfejijiejigjie ~= true then
