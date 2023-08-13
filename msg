@@ -1,4 +1,4 @@
-_G.currentversion = "L ProBacon"
+_G.currentversion = "Script is dead."
 spawn(function()
 _G.ppwoiwfejijiejigjie = true
 if _G.ppwoiwfejijiejigjie ~= true then
